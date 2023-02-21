@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* variabili */
+:root {
+    --primary-color: rgb(39, 40, 34);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    
+}
+
+body > div {
+    padding: 30px;
+    border: solid 1px white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px #dedede;   
+}

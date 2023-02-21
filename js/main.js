@@ -7,19 +7,19 @@
 
 //chiedo il nome all'utente e lo stampo
 const nome = prompt('inserisci il tuo nome');
-document.getElementById('nome').innerHTML = `Il tuo nome e: ${nome}`;
+document.getElementById('nome').innerHTML = `Il tuo nome: ${nome}`;
 
 //quando l'utente ha inserito il nome, chiedo il cognome e lo stampo
 const cognome = prompt('inserisci il tuo cognome');
-document.getElementById('cognome').innerHTML = `Il tuo cognome e: ${cognome}`;
+document.getElementById('cognome').innerHTML = `Il tuo cognome: ${cognome}`;
 
 //stesso procedimento per il colore
 const colore = prompt('inserisci il tuo colore preferito');
-document.getElementById('colore').innerHTML = `il tuo colore preferito e: ${colore}`;
+document.getElementById('colore').innerHTML = `il tuo colore preferito: ${colore}`;
 
 //creo una variabile che contiene la stringa 23 da aggiungere alla creazione della password
 let numero = ('23');
 
 //sommo le varibaili e creo la password 
 let password = nome + cognome + colore + numero;
-document.getElementById('password').innerHTML = `La password generata e: ${password}`;
+document.getElementById('password').innerHTML = `La password generata: ${password}`;
